@@ -200,6 +200,7 @@ public class Window extends JFrame {
         writeArea = new DataTextArea(data.getWriteType(), data.getCharset());
         sendButton = new JButton("发送");
 
+        //test
         DefaultListModel<Object> model = new DefaultListModel<>();
         connectList = new JList<>(model);
 //      connectList = new JList<>();
